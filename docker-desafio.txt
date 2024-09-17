@@ -1,0 +1,6 @@
+docker container run --name curso_docker -p 5432:5432 -e POSTGRES_PASSWORD=docker_usr -e POSTGRES_USER=docker_pwd -d postgres
+
+docker run --name docker_db -e MYSQL_USER=docker_usr -e MYSQL_ROOT_PASSWORD=docker_pwd  -d mysql
+
+docker run --name mongodb -e MONGODB_ROOT_USER=mongo_usr -e MONGODB_ROOT_PASSWORD=mongo_pwd -d mongo
+
